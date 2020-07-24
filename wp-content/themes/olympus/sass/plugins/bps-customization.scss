@@ -1,0 +1,68 @@
+@import "../theme-styles/variables";
+
+/*------------- #BPS Customization --------------*/
+
+.olympus-theme {
+  .widget_bps_widget {
+	.bps-form {
+	  padding: 20px;
+	}
+  }
+
+  .bps-form label strong {
+	font-weight: 400;
+  }
+
+  button[type="submit"][name="signin_submit"] {
+	line-height: 2.2;
+	height: auto;
+  }
+
+  button[type="submit"]:not(.btn-lg) {
+	background: #ff5e3a;
+	background: var(--primary-accent-color);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	/*color: #fff;
+	padding: .8rem 2.1rem;
+	font-weight: 700;
+	opacity: .85;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+	display: inline-block;
+	border-radius: .25rem;*/
+  }
+
+  .bps-form input,
+  .bps-form select {
+	height: 45px;
+  }
+
+  .bps-form .nice-select {
+	min-width: 200px;
+  }
+
+  #yz-members-directory {
+	.bps_filters {
+	  padding: 15px 20px;
+	  margin: 0 17.5px 35px;
+	  background-color: #fff;
+
+	  @media(max-width: 768px) {
+		margin: 0 0 25px 0;
+	  }
+	}
+
+	.bps-form {
+	  padding: 15px 20px;
+	  margin: 0 17.5px 35px;
+	  background-color: #fff;
+
+	  @media(max-width: 768px) {
+		margin: 0 0 25px 0;
+	  }
+	}
+  }
+}
